@@ -6,6 +6,6 @@
 
 @layer utilities {
   .overflow-hidden {
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    -webkit-mask-image: -webkit-radial-gradient(#63beff, black);
   }
 }
