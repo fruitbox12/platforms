@@ -123,15 +123,14 @@ export default function Layout({ meta, children, subdomain }: LayoutProps) {
           </button>
           <div className="text-center lg:text-left">
             <p className="font-cal text-lg sm:text-2xl text-black">
-              Platforms Starter Kit Demo
+               Deployment Platform
             </p>
             <p
               className={`${
                 closeModal ? "lg:block hidden" : ""
               } text-sm text-gray-700 mt-2 lg:mt-0`}
             >
-              This is a demo site showcasing how to build a multi-tenant
-              application with{" "}
+              Deploy multi-tenant smart contracts and decentralized microservices for dapps
               <a
                 className="text-black font-semibold underline"
                 href="https://platformize.co"
@@ -154,7 +153,7 @@ export default function Layout({ meta, children, subdomain }: LayoutProps) {
               rel="noreferrer"
               target="_blank"
             >
-              Create your publication
+              Create your app
             </a>
             <a
               className="flex-auto font-cal text-lg bg-black text-white border border-black rounded-md py-1 sm:py-3 px-5 hover:text-black hover:bg-white transition-all ease-in-out duration-150 whitespace-no-wrap"
