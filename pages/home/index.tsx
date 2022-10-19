@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex h-screen bg-black">
       <Head>
-        <title>Platforms on Vercel</title>
+        <title>Peer 2 Protocol</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -13,8 +13,8 @@ export default function Home() {
         <Image
           width={512}
           height={512}
-          src="/logo.png"
-          alt="Platforms on Vercel"
+          src=""
+          alt="Deployment Platform"
         />
       </div>
     </div>
